@@ -5,7 +5,10 @@
 }
 body{
 
-    background-color:rgba(222, 228, 220, 0.195);
+    background-color:rgba(235, 17, 126, 0.195);
+    background-image: url(img/patron-color-pastel-caramelo-dibujado-mano_23-2150623234.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -24,6 +27,7 @@ menu{
 nav{
     float: right;
     padding-right: 20px;
+    margin-right: 400px;
 
 }
 nav ul li {
@@ -36,6 +40,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: rgb(226, 33, 97);
+    font-size: larger;
 }
  
  .contenedor{
@@ -51,9 +56,25 @@ nav ul li a {
 
  .img-01{
     
-    padding-top: 70px;
-  margin-right: 461px;
-  margin-left: 436px;
+    
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    
+      
+    
+        width: 30%;
+        height: auto;
+        left: 500px;
+         top: 100px;
+
+    
+
+    
+    
+
 
  }
 
