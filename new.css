@@ -5,26 +5,50 @@
 }
 body{
 
-    background-color:rgba(235, 17, 126, 0.195);
+    background-color:rgba(150, 66, 108, 0.195);
     background-image: url(img/patron-color-pastel-caramelo-dibujado-mano_23-2150623234.avif);
     background-repeat: no-repeat;
     background-size: cover;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 header{
-    width: 100%;
-    clear: both;
-    content: '';
-    display: table;
+    background-color: #ffffff00;
+	padding: 15px;
+	overflow: hidden;
 }
 
-menu{
-    width: 900px;
-    margin: 0 auto;
-}
+  header a {
+      color: #e158a1;
+      text-decoration: none;
+      padding: 5px;
+      display: block;
+  }
+  header a:hover {
+      background-color: #FFFFFF;
+      color: #9f1455;
+  }
 
-nav{
+
+
+nav {  
+    float: right; 
+    
+ }
+ nav ul li {
+ 
+ display: inline-block;
+ margin-right: 275px;
+ margin-left: 2px;
+ 
+ 
+ }
+
+/*nav{
     float: right;
     padding-right: 20px;
     margin-right: 400px;
@@ -41,44 +65,55 @@ nav ul li a {
     text-decoration: none;
     color: rgb(226, 33, 97);
     font-size: larger;
-}
+}*/
  
- .contenedor{
-
-    padding: 8px;
-    color: rgb(226, 33, 97);
-    padding-left: 523px;
-    padding-top: 11px;
-    margin-top: 9px;
-    
-
- }
+ 
 
  .img-01{
     
-    
-        position: relative;
-        width: 200px;
-        height: 200px;
-        overflow: hidden;
-        border-radius: 50%;
-    
-      
-    
-        width: 30%;
-        height: auto;
-        left: 500px;
-         top: 100px;
-
-    
-
-    
-    
-
+          width: 250px;
+        height: 250px;
+         border-radius: 50%;
+         justify-content: center;
+         margin-left: 550px;
+   
 
  }
 
+ .contenedor{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 65px;
 
+ }
+
+ .image-01{
+    width: 330px;
+    height: 220px;
+    margin-right: 20px;
+
+ }
+ .image-02{
+    width: 330px;
+    height: 220px;
+    margin-left: 20px;
+
+ }
+ .image-03{
+    width: 330px;
+    height: 220px;
+    margin-left: 35px;
+
+ }
+
+    
+    
+
+
+
+/*
 nav ul li a:hover{
     width: 100%;
-}
+}*/
